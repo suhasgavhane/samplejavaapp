@@ -45,6 +45,7 @@ pipeline {
 	   steps {
                 echo 'package......'
 		sh script: '/opt/apache-maven-3.8.4/bin/mvn package'	
+		   echo 'email senddung...'
 		   emailext body: '', recipientProviders: [developers()], subject: 'Build Status', to: 'suhascloud2021@gmail.com'
            }		
         }
