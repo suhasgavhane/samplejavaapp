@@ -1,4 +1,3 @@
 
-Sample Java Applicaiton V3.5
-
+Sample Java Applicaiton V3.6
 This is for a testing....
